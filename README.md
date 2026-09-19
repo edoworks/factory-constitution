@@ -1,31 +1,9 @@
-# factory-constitution (template)
+# Deprecated
 
-Templates for running a lean agent-driven software factory without over-engineering.
+This standalone repository has moved to the canonical public artifact:
 
-## Problem
+<https://github.com/edoworks/artifacts/tree/main/artifacts/factory-constitution>
 
-As factories accumulate governance, they tend to consolidate themselves — more
-validators, more routing complexity, more consolidation — rather than ship product.
-This template is the minimal set of canonical documents that keep the factory
-focused on **verified human value per unit of human attention, risk, and cost**.
-
-## What's here
-
-- `templates/NORTH_STAR.md.template` — one-page mission, priority hierarchy, immutable
-  vs learnable policy boundaries, entropy discipline, bypass invariant.
-- `templates/factory-constitution.json.template` — machine-checkable policy caps:
-  factory work share ≤10% (bootstrap ≤30%), 7-day product freeze, friction-count ≥3
-  gate, simplification ordering.
-- `templates/five-whys.incident.json.template` — evidence-based 5-Whys incident shape
-  with an explicit root cause and a recurrence guard.
-
-## How to use
-
-Copy the templates into your factory repo, fill the bracketed placeholders, and
-treat them as canonical. Keep agent-facing instructions consistent with them.
-Do not build the full orchestration/monitoring/learning stack first — earn each
-capability by measured product pain.
-
-## License
-
-MIT — see `LICENSE`.
+Use the versioned `factory-constitution` artifact there. This repository is
+retained for history and will not receive new source, templates, tests, or
+skills.
